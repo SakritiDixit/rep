@@ -1,114 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-		<meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-        <meta name="description" content="">
-        <meta name="keywords" content="" />
-        <meta name="author" content="404">
-		<link rel="shortcut icon" href="assets/img/favicon.png">
-        <title>Taarangana'18</title>
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/slick.css" rel="stylesheet">
-        <link href="assets/css/animate.css" rel="stylesheet">
-        <link href="assets/css/jquery.fullpage.min.css" rel="stylesheet">
-        <link href="assets/css/style.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-		<script src="assets/js/aframe-master.js"></script>
-		<script src="assets/js/play-all-model-animations.js"></script>
-		</head>
-<body>
-		<audio loop src="song.mp3">
-    Your browser does not support the <code>audio</code> tag
-</audio>
-		<div class="navbar navbar-fixed-top navbar-brand">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button class="hamburger" type="button" data-toggle="navigation">
-                        <span class="hamburger-box">
-                            <span class="hamburger-inner"></span>
-                        </span>
-                    </button>                    
-                </div>
+<title>Meet the Team | Taarangana'18</title>
+<?php include('../module/head.php') ?></head>
+<body class="bg">
+	<?php include('../module/navbar.php') ?>        
+        <section id="speakers-opening" class="bg06">
+            <div class="container narrow">
+                  <h1 class="title-45 wow fadeInUp">The league continuing the legacy of <br><strong>Taarangana.</strong><br></h1><h2 class="title-40 wow fadeInUp">Change the minds and change the world.</h2>
+                <div class="letters wow fadeInUp"><span class="letter text-danger">W</span><span class="letter text-danger">e</span>  &nbsp   <span class="letter">r</span><span class="letter">i</span><span class="letter">s</span><span class="letter">e</span>  &nbsp   <span class="letter text-danger">b</span><span class="text-danger">y</span>   &nbsp  <span class="letter text-danger">l</span><span class="letter text-danger">i</span><span class="letter text-danger">f</span><span class="letter text-danger">t</span><span class="letter text-danger">i</span><span class="letter text-danger">n</span><span class="letter text-danger">g</span>  &nbsp   <span class="letter text-danger">o</span><span class="letter text-danger">t</span><span class="letter text-danger">h</span><span class="letter text-danger">e</span><span class="letter text-danger">r</span><span class="letter text-danger">s</span>
             </div>
-        </div>      
-		
-               
-<div class="menu-backdrop"></div>
-        <div id="menu">
-            <button class="hamburger" type="button" data-toggle="navigation">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>
-            <div class="menu-wrap">
-                <div class="menu-nav">
-                    <div class="left-middle">
-                        <ul class="nav">
-                            <li class="first active"><a href="/"><span>Home</span></a></li>							
-							<li><a href="about-clg/"><span>AboutUs</span></a></li>
-							<li><a href="events/"><span>Events</span></a></li>
-							<li><a href="schedule/"><span>Schedule</span></a></li>
-							<li><a href="pronight/"><span>Pronight</span></a></li>							
-							<li><a href="gallery/"><span>Gallery</span></a></li>
-							<li><a href="sponsors/"><span>Sponsors</span></a></li>
-							<li class="last"><a href="meet-team/"><span>Meet-Team</span></a></li>
+        </section>
+
+        <section id="speakers">
+            <div class="container">
+                <div class="tab-navigation wow fadeInUp">
+                     <ul class="nav hidden-xs" role="tablist">
+                        <li class="active"><a href="#core-team" class="btn" data-toggle="tab">Core Team</a></li>
+                        <li><a href="#website-team" class="btn" data-toggle="tab">Website Team</a></li>
+                    </ul>
+                    <div class="dropdown visible-xs">
+                        <button type="button" class="btn not-anim btn-border btn-block dropdown-toggle" data-toggle="dropdown">
+                        <span class="text">Core Team</span> <i class="ic-chevron-thin-down"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="#core-team">Core Team</a></li>
+                            <li><a href="#website-team">Website Team</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="menu-text">
-                    <div class="center-middle">
-                        <div class="menu-text-inner">
-                            <div class="menu-logo">
-                                <img src="assets/img/logo.gif" alt="">
+
+                <div class="tab-content">
+                    <div class="tab-pane active" id="core-team">
+                        <div class="row figure-wrap">
+<div class="col-sm-6">
+                                <div class="figure-item wow fadeInUp">
+                                    <div data-bio="#speakers-bio" data-toggle="bio-popup" class="figure-img glitch-hover"><img data-hex="62f1d2,042a3b"src="../assets/img/speaker/sponsorship.jpg"></div>
+                                    <div class="figure-caption">
+                                        <h4 class="glitch-hover" data-bio="#katharine-jarmul-bio" data-toggle="bio-popup" >Sponsorship Team</h4>
+                                        <div class="attr text-danger"><h5>Nikshubha, Kanika and Vidushi from left to right.<h5></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="menu-event">
-                                <div class="date">Dublin, 7 October 2017</div>
-                                <div class="location">The Royal Hospital Kilmainham</div>
-                                <p style="text-transform:lowercase; font-weight: bold; font-family:"andale_mono"; font-size:16px;color:#042a3b;">Ticket registration is from 10am on Monday 11th September.<br>You can email us now at <a href="mailto:hello@404.ie" style="color:#fa2e70">hello@404.ie</a> and we’ll send you the link to register.</p>
-                                <a href="https://www.eventbrite.ie/e/404-tickets-35232778188" target="_blank" class="btn btn-info"><span>I WANT TO GO</span></a>
-                                <button type="button" class="btn btn-info btn-register-interest"><span>I WANT TO GO</span></button>
-                                <div class="social">
-                                    <a href=" https://twitter.com/404events" target="_blank"><i class="ic-twitter2"></i></a>
-                                    <a href="https://www.facebook.com/404events/" target="_blank"><i class="ic-facebook"></i></a>
-                                    <a href="https://www.instagram.com/404_events/" target="_blank"><i class="ic-instagram"></i></a>
+							
+							
+<div class="col-sm-6">
+                                <div class="figure-item wow fadeInUp">
+                                    <div data-bio="#speakers-bio" data-toggle="bio-popup" class="figure-img glitch-hover"><img data-hex="62f1d2,042a3b" src="../assets/img/speaker/em.jpg"></div>
+                                    <div class="figure-caption">
+                                        <h4 class="glitch-hover" data-bio="#thomas-shaw-bio" data-toggle="bio-popup" >Event Management Team</h4>
+                                        <div class="attr text-danger"></h5>Aaa, Baa and Caa from left to right.</h5></div>
+                                    </div>
+                                </div>
+                            </div>
+							
+							
+<div class="col-sm-6">
+                                <div class="figure-item wow fadeInUp">
+                                    <div data-bio="#speakers-bio" data-toggle="bio-popup" class="figure-img glitch-hover"><img data-hex="62f1d2,042a3b" src="../assets/img/speaker/website.jpg"></div>
+                                    <div class="figure-caption">
+                                        <h4 class="glitch-hover" data-bio="#rachel-andrew-bio" data-toggle="bio-popup">Website Team</h4>
+                                        <div class="attr text-danger"><h5>Aaa, Baa and Caa from left to right.</h5></div>
+                                    </div>
+                                </div>
+                            </div>
+							
+							
+<div class="col-sm-6">
+                                <div class="figure-item wow fadeInUp">
+                                    <div data-bio="#speakers-bio" data-toggle="bio-popup" class="figure-img glitch-hover"><img data-hex="62f1d2,042a3b" src="../assets/img/speaker/pr.jpg"></div>
+                                    <div class="figure-caption">
+                                        <h4 class="glitch-hover" data-bio="#ruth-john-bio" data-toggle="bio-popup" >Public Relations Team</h4>
+                                        <div class="attr text-danger"><h5>Aaa, Baa and Caa from left to right.</h5></div>
+                                    </div>
+                                </div>
+                            </div>
+							
+							
+<div class="col-sm-6">
+                                <div class="figure-item wow fadeInUp">
+                                    <div data-bio="#speakers-bio" data-toggle="bio-popup" class="figure-img glitch-hover"><img data-hex="62f1d2,042a3b" src="../assets/img/speaker/creative.jpg"></div>
+                                    <div class="figure-caption">
+                                        <h4 class="glitch-hover" data-bio="#melanie-rieback-bio" data-toggle="bio-popup">Creative Team</h4>
+                                        <div class="attr text-danger"><h5>Aaa, Baa and Caa from left to right.</h5></div>
+                                    </div>
+                                </div>
+                            </div>
+							
+							
+<div class="col-sm-6">
+                                <div class="figure-item wow fadeInUp">
+                                    <div data-bio="#speakers-bio" data-toggle="bio-popup" class="figure-img glitch-hover"><img data-hex="62f1d2,042a3b" src="../assets/img/speaker/hr.jpg"></div>
+                                    <div class="figure-caption">
+                                        <h4 class="glitch-hover" data-bio="#maria-hyland-bio" data-toggle="bio-popup">Human Resource Team</h4>
+                                        <div class="attr text-danger"><h5>Aaa, Baa and Caa from left to right.</h5></div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+						
+						
+                    
+<div class="col-sm-6">
+                                <div class="figure-item wow fadeInUp">
+                                    <div data-bio="#speakers-bio" data-toggle="bio-popup" class="figure-img glitch-hover"><img data-hex="62f1d2,042a3b" src="../assets/img/speaker/content.jpg"></div>
+                                    <div class="figure-caption">
+                                        <h4 class="glitch-hover" data-bio="#thomas-shaw-bio" data-toggle="bio-popup" >Content Team</h4>
+                                        <div class="attr text-danger"></h5>Aaa, Baa and Caa from left to right.</h5></div>
+                                    </div>
+                                </div>
+                            </div>
+							
+							
+
+<div class="col-sm-6">
+                                <div class="figure-item wow fadeInUp">
+                                    <div data-bio="#speakers-bio" data-toggle="bio-popup" class="figure-img glitch-hover"><img data-hex="62f1d2,042a3b" src="../assets/img/speaker/media.jpg"></div>
+                                    <div class="figure-caption">
+                                        <h4 class="glitch-hover" data-bio="#thomas-shaw-bio" data-toggle="bio-popup" >Media Team</h4>
+                                        <div class="attr text-danger"></h5>Aaa, Baa and Caa from left to right.</h5></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+				</div>
+					
+                    <div class="tab-pane" id="website-team">
+                        <div class="row figure-wrap">
+
+<div class="col-sm-12">
+                                <div class="figure-item wow fadeInUp">
+                                    <div data-bio="#speakers-bio" data-toggle="bio-popup" class="figure-img glitch-hover"><img data-hex="62f1d2,042a3b" src="../assets/img/speaker/team.jpg"></div>
+                                    <div class="figure-caption">
+                                        <h2 class="glitch-hover" data-bio="#thomas-shaw-bio" data-toggle="bio-popup" >Website Team</h2>
+                                        <div class="attr text-danger"></h4>Aaa, Baa, ddd, ff, ggg, jhjj, kaj, kkl, ljk, kfh and Caa from left to right.</h4></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                 </div>  
             </div>
-        </div>
-        
-        
-		<!--<div class="page-loading hidden-xs hidden-sm">
-            <div class="loader"></div>
-            <span class="text">Loading...</span>
-        </div>
-        
-		<div class="homepage-video hidden-xs hidden-sm">
-            <video id="opening-video" class="background-video">
-            </video>
-        </div>-->
+        </section>
 
-        <a-scene  vr-mode-ui="enabled: false">
-      <a-assets>
-        <a-asset-item id="cityModel" src="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf"></a-asset-item>
-      </a-assets>
+ 
+        
+        <?php include('../module/footer.php') ?>            
+        <script>
+            $(function(){
+                function getParameterByName(name, url) {
+                    if (!url) url = window.location.href;
+                    name = name.replace(/[\[\]]/g, "\\$&");
+                    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                        results = regex.exec(url);
+                    if (!results) return null;
+                    if (!results[2]) return '';
+                    return decodeURIComponent(results[2].replace(/\+/g, " "));
+                }
+                if(getParameterByName('tab')!=null){
+                    $('.tab-navigation .nav>li>a[href="#'+getParameterByName('tab')+'"]').tab('show')
+                }
+                $('[data-toggle="bio-popup"]').click(function(e){
+                    $('body').addClass('bio-open')
+                    $($(this).data('bio')).fadeIn()
+                    history.pushState(null, '404', $(this).attr('href'))
 
-      <a-entity gltf-model="#cityModel" play-all-model-animations></a-entity>
-    </a-scene> 
-        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/fastclick.js"></script>
-        <script src="assets/js/slick.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/jquery.fullpage.js"></script>
-        <script src="assets/js/mgGlitch.min.js"></script>
-        <script src="assets/js/iscroll.js"></script>
-        <script src="assets/js/validator.min.js"></script>
-        <script src="assets/js/cookie.min.js"></script>
-        <script src="assets/js/script.js"></script>   
+                    $('.bio-slick:visible').on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+                        var prevText = $('.bio-item.slick-current:visible').prev('.bio-item').find('h4').text().split(' ').join('<br>')
+                        var nextText = $('.bio-item.slick-current:visible').next('.bio-item').find('h4').text().split(' ').join('<br>')
+                        var prevUrl = $('.bio-item.slick-current:visible').prev('.bio-item').data('url')
+                        var nextUrl = $('.bio-item.slick-current:visible').next('.bio-item').data('url')
+
+                        $('.bio-slick:visible').find('.slick-prev span').html(prevText)
+                        $('.bio-slick:visible').find('.slick-prev').attr('href', prevUrl)
+                        var mprev = (100-$('.bio-slick:visible').find('.slick-prev span').height())/2;
+                        $('.bio-slick:visible').find('.slick-prev span').css('margin-top', mprev)
+                        $('.bio-slick:visible').find('.slick-next span').html(nextText)
+                        $('.bio-slick:visible').find('.slick-next').attr('href', nextUrl)
+                        var mnext = (100-$('.bio-slick:visible').find('.slick-next span').height())/2;
+                        $('.bio-slick:visible').find('.slick-next span').css('margin-top', mnext)
+
+                        history.pushState(null, '404', $('.bio-item.slick-current:visible').data('url'))
+                    });
+                    var initSlide = $(this).parents('.col-sm-4').index()
+                    $('.bio-slick:visible').slick({
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        dots: false,
+                        autoplay: false,
+                        infinite: false,
+                        initialSlide: initSlide,
+                        prevArrow: '<a href="#" onclick="javascript:void(0)" class="slick-prev"><i class="ic-angle-left"></i> <span></span></a>',
+                        nextArrow: '<a href="#" onclick="javascript:void(0)" class="slick-next"><i class="ic-angle-right"></i> <span></span></a>'
+                    });
+                    $('.bio-content').each(function(i, el){
+                        new IScroll(el, { mouseWheel: true });
+                    })
+                    e.preventDefault()
+                })
+                $('[data-dismiss="bio-popup"]').click(function(){
+                    history.pushState(null, '404', 'speakers')
+                    $('body').removeClass('bio-open')
+                    $(this).parents('.bio-popup').fadeOut()
+                    if($('.bio-slick:visible').hasClass('slick-slider')) $('.bio-slick:visible').slick('unslick');
+
+                })
+                $('[data-toggle="bio-right"]').click(function(e){
+                    $('body').addClass('bio-open')
+                    $('.bio-right').removeClass('active')
+                    $($(this).attr('href')).addClass('active')
+                    $('.bio-right-inner').each(function(i, el){
+                        new IScroll(el, { mouseWheel: true });
+                    })
+                    e.preventDefault()
+                })
+                $('[data-dismiss="bio-right"]').click(function(){
+                    $('body').removeClass('bio-open')
+                    $(this).parents('.bio-right').removeClass('active')
+                })
+                $('.tab-navigation .dropdown-menu>li>a').click(function(e){
+                    $('.tab-navigation .dropdown-menu>li').removeClass('active')
+                    $(this).parents('li').addClass('active')
+                    $('.tab-navigation').find('.dropdown-toggle .text').text($(this).text())
+                    $('.tab-navigation .nav>li>a[href="'+$(this).attr('href')+'"]').click()
+                    e.preventDefault()
+                })
+
+
+                if(getParameterByName('installation')!=null){
+                     $('[data-toggle="bio-popup"][href="speakers/?installation='+getParameterByName('installation')+'"]').click()
+                }
+                
+                if(getParameterByName('speaker')!=null){
+                     $('[data-toggle="bio-popup"][href="speakers/?speaker='+getParameterByName('speaker')+'"]').click()
+                }
+            });
+        </script>
     </body>
 </html>
